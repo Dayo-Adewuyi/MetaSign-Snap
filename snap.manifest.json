@@ -1,0 +1,29 @@
+{
+  "version": "1.0.0",
+  "description": "Metasign Snap",
+  "proposedName": "MetaSign snap",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Dayo-Adewuyi/MetaSign-Snap.git"
+  },
+  "source": {
+    "shasum": "AZ65yl9E6AglSGzq6gb4f5QtOzm8cognZWfKyv4wcd4=",
+    "location": {
+      "npm": {
+        "filePath": "dist/bundle.js",
+        "iconPath": "images/icon.svg",
+        "packageName": "snap",
+        "registry": "https://registry.npmjs.org/"
+      }
+    }
+  },
+  "initialPermissions": {
+    "snap_dialog": {},
+    "endowment:rpc": {
+      "dapps": true,
+      "snaps": false
+    },
+    "endowment:network-access": {}
+  },
+  "manifestVersion": "0.1"
+}
